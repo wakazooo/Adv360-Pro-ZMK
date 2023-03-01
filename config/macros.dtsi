@@ -1,9 +1,3 @@
-macro_nihongo: macro_nihongo{
-compatible = "zmk,behavior-macro";
-label = "macro_nihongo";
-#binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp SPACE>;
-};
 macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
 label = "macro_dquotes";

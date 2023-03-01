@@ -1,8 +1,8 @@
-macro_quotes: macro_quotes{
+macro_nihongo: macro_nihongo{
 compatible = "zmk,behavior-macro";
-label = "macro_quotes";
+label = "macro_nihongo";
 #binding-cells = <0>;
-bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+bindings = <&kp LCTRL>, <&kp SPACE>;
 };
 macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
